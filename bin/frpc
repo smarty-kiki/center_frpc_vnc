@@ -3,7 +3,7 @@
 ROOT_DIR="$(cd "$(dirname $0)" && pwd)"/..
 HOSTNAME=`hostname`
 
-VNC_CENTER_PORT=$
+VNC_CENTER_PORT=$1
 
 if [ -z "$VNC_CENTER_PORT" ]
 then
